@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    overflow: hidden;
+
+}
+
+.container{
+    background-color: white;
+    border-radius: 5px;
+    width: 1000px;
+
+}
+
+.tittle{
+    font-size: 30px;
+    text-align: left;
+}
+
+.container .form-outer{
+    overflow: hidden;
+    width: 400%;
+}
+
+.page{
+    width: 900px;
+    margin-left: 50px;
+}
+.form-outer form{
+    display: flex;
+   
+    
+}
+
+.form-outer form .field{
+    height: 45px;
+    position: relative;
+    margin: 25px 0;
+
+}
+
+#launch,#breakfast,#dinner{
+    border-radius: 5px;
+    width: 50%;
+    height: 40px;
+}   
+
+#drink1,#drink2,#drink3{
+    border-radius: 5px;
+    width: 30%;
+    height: 40px;
+
+}   
+
+.form-outer form .page .field {
+    border-radius: 5px;
+
+}   
+
+label{
+    position: absolute;
+    top: -30px;
+}
+
+
