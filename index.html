@@ -9,12 +9,45 @@
 </head>
 <body>
     <div class="container">
+        <div class="progress-bar">
+            <div class="step">
+                <p>Cabin</p>
+                <div class="bullet">
+                    <span>1</span>
+                </div>
+                <div class="check"></div>
+            </div>
+            <div class="step">
+                <p>Meals</p>
+                <div class="bullet">
+                    <span>2</span>
+                </div>
+                <div class="check"></div>
+            </div>
+            <div class="step">
+                <p>Upgrades</p>
+                <div class="bullet">
+                    <span>3</span>
+                </div>
+                <div class="check"></div>
+            </div>
+            <div class="step">
+                <p>Payment</p>
+                <div class="bullet">
+                    <span>4</span>
+                </div>
+                <div class="check"></div>
+            </div>
+        </div>
        <div class="form-outer">
         <form action="#">
-            
-
             <div class="page">
                 <div class="tittle">Meal Preferences</div>
+
+                <div class="description">
+                    Your flight comes with breakfast,lunch and dinner. Please make your selections below.
+                    <br> Changes to your order can be made up to 48 hours before your flight.
+                </div>
                 <div class="field">
                     <label for="breakfast">Breakfast</label>
                     <select name="breakfast" id="breakfast">
@@ -30,7 +63,7 @@
                 </div>
 
                 <div class="field">
-                    <label for="launch">Launc</label>
+                    <label for="launch">Launch</label>
                     <select name="launch" id="launch">
                         <option value="0">Club Sandwich Meal</option>
                         <option value="1">Cubano Sandwich Meal</option>
@@ -60,12 +93,12 @@
                 <div class="field">
                     
                     <input type="checkbox" id="dessert" name="dessert">
-                    <label for="dessert">I'd like dessert, too!</label>
+                    <label for="dessert" class="dessert">I'd like dessert, too!</label>
                 </div>
 
                 <div class="field">
                     <button class="back">Back</button>
-                    <button class="next">Next</button>
+                    <button class="next">Continue</button>
                 </div>
             </div>
 
